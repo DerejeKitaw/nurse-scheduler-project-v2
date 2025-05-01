@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "nurse-scheduler-agent",
+    "libraryId": "99151f2b-fed0-4ab0-9de5-5224d86f550b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "nurse-scheduler-agent",
+    "solutionShortDescription": "nurse-scheduler-agent description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

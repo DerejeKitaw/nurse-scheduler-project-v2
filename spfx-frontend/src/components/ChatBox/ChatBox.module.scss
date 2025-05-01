@@ -1,0 +1,105 @@
+/* ChatBox.module.scss  ── layout is pure flex, no special JS scroll */
+
+.wrapper {
+    min-height: 70vh;
+    /* grows to 70 % of viewport */
+    height: 100%;
+    /* still stretch if zone is taller */
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .12);
+}
+
+.header {
+    padding: 8px 12px;
+    font-weight: 600;
+    flex: none;
+}
+
+.pane {
+    flex: 1 1 0;
+    overflow-y: auto;
+    padding: 0 12px;
+    padding-bottom: 72px;
+}
+
+/* space for input bar */
+
+.bubble {
+    max-width: 80%;
+    padding: 6px 10px;
+    margin: 6px 0;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #f3f3f3;
+}
+
+.user {
+    background: #0078d4;
+    color: #fff;
+    margin-left: auto;
+}
+
+.quickRow {
+    margin-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.inputRow {
+    height: 56px;
+    flex: none;
+    padding: 8px 12px;
+    display: flex;
+    gap: 6px;
+    border-top: 1px solid #f0f0f0;
+    background: #fff;
+}
+
+.input {
+    flex: 1;
+}
+
+.micOn button {
+    color: #d83b01 !important;
+}
+
+/* bright Fluent orange */
+
+
+.debugBox {
+    max-height: 140px;
+    overflow-y: auto;
+    padding: 6px 12px 12px;
+    background: #fafafa;
+    border-top: 1px solid #f0f0f0;
+}
+
+.dayChip {
+    text-align: center;
+    font-size: 11px;
+    color: #666;
+    margin: 8px 0;
+    user-select: none;
+}
+
+.typing {
+    padding: 6px 10px;
+    font-size: 13px;
+    background: #f3f3f3;
+    border-radius: 6px;
+    font-style: italic;
+    color: #666;
+}
+
+.jumpBtn {
+    position: absolute;
+    right: 20px;
+    bottom: 88px;
+    /* above input */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .15);
+    z-index: 2;
+}

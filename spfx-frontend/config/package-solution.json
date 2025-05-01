@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "nurse-scheduler-agent-client-side-solution",
+    "id": "99151f2b-fed0-4ab0-9de5-5224d86f550b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      }
+    ],
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "nurse-scheduler-agent description"
+      },
+      "longDescription": {
+        "default": "nurse-scheduler-agent description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "nurse-scheduler-agent Feature",
+        "description": "The feature that activates elements of the nurse-scheduler-agent solution.",
+        "id": "d1fd1e99-4911-4961-b0cc-694798500118",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/nurse-scheduler-agent.sppkg"
+  }
+}

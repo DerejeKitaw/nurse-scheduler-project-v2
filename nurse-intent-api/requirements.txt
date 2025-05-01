@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+scikit-learn
+pandas
+numpy==1.26.4
+joblib
+onnx
+onnxruntime
+skl2onnx
+spacy==3.8.5
+dateparser
+# Download small English model for spaCy
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
